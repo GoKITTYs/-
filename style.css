@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+body{
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    background-color: #3b2a1e;
+    color: #816A58;
+}
+.menu p{
+    margin-top: 0px;
+}
+.main{
+    margin-left: 50;
+    margin-right: auto;
+    color: #bdc9a5ee;
+    text-shadow: 2px 1px 1px #233325;
+}
+.main p{
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+.main img{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main marquee{
+    font-size: 45px;
+    color :#fff019
+}
+button { 
+    border: none;
+    border-radius: 15px;
+    padding: 20px 50px;
+    background: #022b12;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+  button:hover { 
+    background: #2c7e17d5;
+    text-underline-offset: 80;
+  } 
+  
+  @keyframes slidein {
+    from {
+      margin-left: 80%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
